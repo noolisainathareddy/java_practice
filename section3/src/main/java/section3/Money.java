@@ -5,7 +5,7 @@ import org.apache.beam.sdk.values.PCollection;
 import org.apache.beam.sdk.io.TextIO;
 import org.apache.beam.sdk.options.PipelineOptionsFactory; 
 
-
+ 
 public class Money {
 
 	public static void main(String[] args)
