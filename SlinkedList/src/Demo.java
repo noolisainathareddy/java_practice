@@ -1,56 +1,26 @@
+import java.util.HashMap;
+import java.util.Iterator;
 
-
-class ListNode
-{
-	int data; 
-	ListNode next;
-	
-	public ListNode(int data)
-	{
-		this.data=data; 
-		this.next=null; 
-	}
-}
 public class Demo {
 	
-	public ListNode head; 
-
 	public static void main(String[] args)
 	{
-		Demo sll=new Demo();
+		HashMap<Integer, String> map = new HashMap<>();
 		
-		sll.head = new ListNode(10); 
-		ListNode second = new ListNode(20); 
-		ListNode third  = new ListNode(30); 
-		ListNode fourth = new ListNode(30); 
-		ListNode fifth  = new ListNode(50); 
+		map.put(101, "Sai Natha Reddy"); 
+		map.put(102, "Purna Kondepati"); 
+		map.put(103, "Akhil Chella"); 
+		map.put(104, "Poojith"); 
 		
-		sll.head.next=second; 
-		second.next=third; 
-		third.next=fourth; 
-		fourth.next=fifth; 
 		
-		ListNode current = sll.head;
-		while(current !=null)
+		//System.out.println(map);
+		
+		Iterator<Integer> it= map.keySet().iterator(); 
+		
+		while(it.hasNext())
 		{
-			System.out.print(current.data + ",");
-			try {
-				if(current.data == current.next.data)
-				{
-					current=current.next;  
-					
-					
-				}
-			}
-			catch(Exception e)
-			{
-				//System.out.print("errorr......");
-			}
-			
-			current = current.next; 
+			System.out.println(it.next()); 
 		}
-		
-		System.out.print("null");
 		
 	}
 }
