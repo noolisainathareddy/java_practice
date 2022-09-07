@@ -1,12 +1,13 @@
 import java.sql.Connection;
+
 import java.sql.DriverManager;
 import java.sql.ResultSet;
 
-import com.mysql.jdbc.Statement;
+import java.sql.Statement;
 
 public class secondProject {
 
-	public static void main(String[] args)
+	public static void main(String[] args) throws Exception
 	{
 		String url="jdbc:mysql://localhost:3306/sai";
 		

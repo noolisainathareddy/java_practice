@@ -1,25 +1,32 @@
 package dummy2;
 
-import java.util.*;
 
+class Math
+{
+	public static int add(int a, int b)
+	{
+	
+		return  a+b;		
+	}
 
+}
+
+class Science extends Math
+{
+	public static int add(int a, int b, int c)
+	{
+	
+		return  a+b;		
+	}
+}
 public class Demo {
 	
 	 public static void main(String[] args)
-	{
+	{ 
+		Math a=new Math(); 
 		
-		int num = 1221;
-		int pal=0; 
-		while(num > 0)
-		{
-			pal = pal * 10 + (num % 10); 
-			
-			
-			num = num/10; 
-			//System.out.println(num);
-			
-		}
-		System.out.println(pal);
+		System.out.println(Science.add(5, 7, 9));
+		 
 	}
 
 }

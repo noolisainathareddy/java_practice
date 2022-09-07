@@ -1,26 +1,34 @@
-import java.util.HashMap;
-import java.util.Iterator;
 
 public class Demo {
 	
+	static ListNode head;
+	
+	static class ListNode
+	{
+		
+		int data;
+		ListNode next; 
+		
+		public ListNode(int data)
+		{
+			this.data=data;
+			this.next=null;
+		}
+	}
+	
 	public static void main(String[] args)
 	{
-		HashMap<Integer, String> map = new HashMap<>();
 		
-		map.put(101, "Sai Natha Reddy"); 
-		map.put(102, "Purna Kondepati"); 
-		map.put(103, "Akhil Chella"); 
-		map.put(104, "Poojith"); 
+			head=new ListNode(1);
 		
+		ListNode second=new ListNode(2);
+		ListNode third=new ListNode(3);
+		ListNode fourth=new ListNode(5);
 		
-		//System.out.println(map);
+		head.next= second; 
+		second.next=third;
+		third.next=fourth; 
 		
-		Iterator<Integer> it= map.keySet().iterator(); 
-		
-		while(it.hasNext())
-		{
-			System.out.println(it.next()); 
-		}
 		
 	}
 }

@@ -13,10 +13,8 @@ public class createLinklist {
 			this.data=data;
 			this.next=null; 
 		}
-		
-	
+
 	}
-	
 	
 	public static void main(String[] args)
 	{
