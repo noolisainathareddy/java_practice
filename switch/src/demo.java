@@ -3,18 +3,24 @@ public class demo {
 
 	public static void main(String[] args)
 	{
-		int score = 4; 
 		
-		switch(score)
+		int i = 100; 
+		int sum =0 ; 
+		int n=1;
+		while(n<=i)
 		{
-		case 1:
-			System.out.println("this is number one"); 
-			break; 
-		case 4: 
-			System.out.println("this is number four"); 
-			break;
-		default: 
-			System.out.println("inavlid");
+			
+			sum = sum +n;  
+			n++;
 		}
+		
+		 double avg = (double) sum/i;
+		 
+		 System.out.println(avg); 
+		 
+		 
+		 String name= "nithin"; 
+		 
+		 System.out.println(name.length());
 	}
 }

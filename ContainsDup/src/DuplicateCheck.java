@@ -1,26 +1,34 @@
-import java.util.ArrayList; 
-import java.util.LinkedHashSet; 
+import java.util.HashMap; 
 
 public class DuplicateCheck {
 
 	public static void main(String[] args) {
+			 
+		HashMap<String, Integer> map= new HashMap<>(); 
+		
+		String arr[] = {"water", "air", "fire", "fire", "water", "water", "air", "cool"};
+		
+		for(String i:arr)
+		{
 			
-		ArrayList<Integer> arr= new ArrayList<>(); 
+			if(map.containsKey(i))
+			{
+				System.out.println("second time " + i); 
+				map.put(i, map.get(i)+1);
+			}
+			
+			else 
+			{
+				map.put(i, 1);
+				System.out.println("First time " + i);
+			}
+				  
+		}
 		
-		arr.add(2); 
-		arr.add(10);
-		arr.add(10);
-		arr.add(10);
-		arr.add(10);
-		arr.add(10);
-		arr.add(2); 
-		
-		
-		LinkedHashSet<Integer> set = new LinkedHashSet<>(arr); 
-		
-		ArrayList<Integer> arr2= new ArrayList<>(set); 
-		System.out.println(arr2); 
+		System.out.println(map); 
 	}
+
 }
+
 
 
