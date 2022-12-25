@@ -1,0 +1,19 @@
+package com.sai.sample.demointerface;
+
+public class Hp implements Laptop{
+
+    public void copy(){
+        System.out.println("this statement is there to copy - HP");
+    }
+
+    public void paste(){
+        System.out.println("This statement is there to copy - HP");
+    }
+    public void delete(){
+        System.out.println("This statement is there to delete - HP");
+    }
+
+    public void camera(){
+        System.out.println("This statement is there for camera - HP");
+    }
+}
