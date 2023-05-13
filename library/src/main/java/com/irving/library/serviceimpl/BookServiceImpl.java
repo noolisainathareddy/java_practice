@@ -3,13 +3,16 @@ package com.irving.library.serviceimpl;
 import com.irving.library.entity.BookStock;
 import com.irving.library.repo.BookRepo;
 import com.irving.library.service.BookService;
+import com.irving.library.service.GangaBookService;
+import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
 
-@Service
-public class BookServiceImpl implements BookService {
+@Service("generalBookStore")
+@Primary
+public class BookServiceImpl implements BookService, GangaBookService {
 
     private BookRepo bookRepo;
 
@@ -36,5 +39,10 @@ public class BookServiceImpl implements BookService {
     @Override
     public Optional<BookStock> getSingleBook(Integer BookId) {
             return bookRepo.findById(BookId);
+    }
+
+    @Override
+    public String gangaHealthCheck() {
+        return "Health is from Regular";
     }
 }
