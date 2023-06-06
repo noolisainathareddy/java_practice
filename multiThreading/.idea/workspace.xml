@@ -4,25 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f0c3785-2ad2-4241-bec9-bc3e3da65dfb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../cloning/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../fileHandling/src/main/java/org/example/E.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../fileHandling/src/main/java/org/example/Oops.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../fileHandling/src/main/java/org/example/Palindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../fileHandling/src/main/java/org/example/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fileHandling/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../fileHandling/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../fileHandling/target/classes/org/example/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../fileHandling/target/classes/org/example/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../library/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../library/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../library/src/main/java/com/irving/library/controller/BookControllers.java" beforeDir="false" afterPath="$PROJECT_DIR$/../library/src/main/java/com/irving/library/controller/BookControllers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../library/src/main/java/com/irving/library/serviceimpl/BookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../library/src/main/java/com/irving/library/serviceimpl/BookServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sai/multiThreading/MyOwnThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sai/multiThreading/MyOwnThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../streamapi/target/classes/org/example/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/../streamapi/target/classes/org/example/Employee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../streamapi/target/classes/org/example/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../streamapi/target/classes/org/example/Main.class" afterDir="false" />
-    </list>
+    <list default="true" id="4f0c3785-2ad2-4241-bec9-bc3e3da65dfb" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,14 +35,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/Users/sainooli/java_practice/multiThreading/pom.xml",
-    "settings.editor.selected.configurable": "advanced.settings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/sainooli/java_practice/multiThreading/pom.xml&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Comp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.collection.Comp" />
