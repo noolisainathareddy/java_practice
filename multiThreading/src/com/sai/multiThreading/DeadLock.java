@@ -37,6 +37,7 @@ public class DeadLock {
       thread2.start();
       //Comment added
       //Testing
+       //restore
    }
 
 }
