@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4f0c3785-2ad2-4241-bec9-bc3e3da65dfb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../CollectionsDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CollectionsDemo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/sai/multiThreading/DeadLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sai/multiThreading/DeadLock.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
