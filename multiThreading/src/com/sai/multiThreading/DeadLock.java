@@ -36,6 +36,7 @@ public class DeadLock {
       thread1.start();
       thread2.start();
       //Comment added
+      //Testing
    }
 
 }
