@@ -3,7 +3,10 @@ package com.JP.LogMonitor.serviceImpl;
 import com.JP.LogMonitor.DTO.SearchReqInfo;
 import com.JP.LogMonitor.entity.UserInfo;
 import com.JP.LogMonitor.repository.UploadData;
+import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Example;
+import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -27,8 +30,19 @@ public class ReportServiceImpl implements com.JP.LogMonitor.service.ReportServic
     }
 
     @Override
-    public List<UserInfo> search(SearchReqInfo info) {
-        return null;
+    public List<UserInfo> search(SearchReqInfo searchReqInfo) {
+        UserInfo data = new UserInfo();
+        if(searchReqInfo.getPlanName() != null && searchReqInfo.getPlanName() != ""){
+            data.setPlanName(searchReqInfo.getPlanName());
+        }
+        if(searchReqInfo.getPlanStatus() != null && searchReqInfo.getPlanStatus() != ""){
+            data.setPlanStatus(searchReqInfo.getPlanStatus());
+        }
+        if(searchReqInfo.getGender() != null && searchReqInfo.getGender() != ""){
+            data.setGender(searchReqInfo.getGender());
+        }
+        System.out.println(data);
+        return uploadData.findAll(Example.of(data));
     }
 
     @Override

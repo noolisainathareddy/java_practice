@@ -11,7 +11,7 @@ public interface ReportService {
 
     public List<String> getPlanStatus();
 
-    public List<UserInfo> search(SearchReqInfo info);
+    public List<UserInfo> search(SearchReqInfo searchReqInfo);
 
     public boolean exportExcel();
 
